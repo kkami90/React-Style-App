@@ -1,19 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
-  const Mybox = styled.div`
-    display: grid;
-    grid-template-columns: auto auto;
-  `;
-
-  return (
-    <div>
-      <Mybox>1qqqq</Mybox>
-      <Mybox>2qqqq</Mybox>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
